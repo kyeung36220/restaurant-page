@@ -36,12 +36,12 @@ export function addContactUsPage() {
 
     // adding character
     const rei = document.createElement("img")
-    rei.classList.add("rei")
+    rei.classList.add("rei", "char")
     rei.src = reiPng
     contactPageContainer.appendChild(rei);
 
     const reiShadow = document.createElement("img")
-    reiShadow.classList.add("reiShadow")
+    reiShadow.classList.add("reiShadow", "shadow")
     reiShadow.src = reiShadowPng
     contactPageContainer.appendChild(reiShadow);
 }

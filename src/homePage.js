@@ -32,12 +32,12 @@ export function addHomePage() {
 
     //adding character
     const shinji = document.createElement("img")
-    shinji.classList.add("shinji")
+    shinji.classList.add("shinji", "char")
     shinji.src = shinjiPng
     homePageContainer.appendChild(shinji);
 
     const shinjiShadow = document.createElement("img")
-    shinjiShadow.classList.add("shinjiShadow")
+    shinjiShadow.classList.add("shinjiShadow", "shadow")
     shinjiShadow.src = shinjiShadowPng
     homePageContainer.appendChild(shinjiShadow);
 

@@ -12,12 +12,12 @@ export function addMenuPage() {
 
     //add character
     const asuka = document.createElement("img")
-    asuka.classList.add("asuka")
+    asuka.classList.add("asuka", "char")
     asuka.src = asukaPng
     menuPageContainer.appendChild(asuka);
 
     const asukaShadow = document.createElement("img")
-    asukaShadow.classList.add("asukaShadow")
+    asukaShadow.classList.add("asukaShadow", "shadow")
     asukaShadow.src = asukaShadowPng
     menuPageContainer.appendChild(asukaShadow);
 
