@@ -137,22 +137,56 @@ nav {
 /* MENU PAGE */
 .menuPageContainer {
   display: flex;
-  margin-top: 36vh;
+  margin-top: 33.5vh;
   margin-left: 5vw;
 }
 
 .asuka {
   position: absolute;
-  height: 790px;
+  height: 840px;
   z-index: 2;
   top: 12vh;
-  left: 5vw;
+  left: 4vw;
 }
 
 .asukaShadow {
   position: absolute;
-  height: 790px;
+  height: 840px;
   z-index: 1;
   top: 12vh;
-  left: 5.6vw;
+  left: 4.6vw;
+}
+
+.menuTextContainer {
+  display: flex;
+  margin-left: 29vw;
+  flex-direction: column;
+}
+
+.menuTitle {
+  font-family: "tnrBold";
+  font-size: 7vw;
+  text-align: center;
+  transform: scale(0.77, 1);
+}
+
+.menuItemsContainer {
+  display: flex;
+  gap: 3vw;
+}
+
+.menuItemsContainer .item {
+  display: flex;
+  flex-direction: column;
+}
+
+.menuItemsContainer .item .image {
+  height: 20vh;
+}
+
+.menuItemsContainer .item .text {
+  text-align: center;
+  font-size: 2.3vw;
+  margin-top: 2vh;
+  transform: scale(0.77, 1);
 }
