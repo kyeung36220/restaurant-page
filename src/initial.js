@@ -8,6 +8,11 @@ export function addHeader() {
     const evaLogo = document.createElement("img")
     evaLogo.classList.add("evaLogo")
     evaLogo.src = evaLogoPng
+
+    evaLogo.addEventListener("click", () => {
+        window.location.reload()
+    })
+
     header.appendChild(evaLogo);
 
     //adding navigation text

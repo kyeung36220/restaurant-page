@@ -48,6 +48,10 @@ nav {
   margin-left: 2vw;
 }
 
+.evaLogo:hover {
+  cursor: pointer;
+}
+
 .pageNav {
   display: flex;
   gap: 1vw;
@@ -131,7 +135,7 @@ nav {
   height: 840px;
   z-index: 1;
   top: 12vh;
-  left: 70vw;
+  left: 69.2vw;
 }
 
 /* MENU PAGE */
@@ -154,7 +158,7 @@ nav {
   height: 840px;
   z-index: 1;
   top: 12vh;
-  left: 4vw;
+  left: 3.2vw;
 }
 
 .menuContentContainer {
@@ -178,6 +182,11 @@ nav {
 .menuItemsContainer .item {
   display: flex;
   flex-direction: column;
+  cursor: pointer;
+}
+
+.menuItemsContainer .item:hover {
+  text-shadow:1px 1px 3px #fff;
 }
 
 .menuItemsContainer .item .image {
@@ -227,6 +236,6 @@ nav {
   height: 840px;
   z-index: 1;
   top: 12vh;
-  left: 60vw;
+  left: 58.4vw;
 }
 
