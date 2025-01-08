@@ -120,7 +120,7 @@ nav {
 
 .shinji {
   position: absolute;
-  height: 790px;
+  height: 840px;
   z-index: 2;
   top: 12vh;
   left: 70vw;
@@ -128,7 +128,7 @@ nav {
 
 .shinjiShadow {
   position: absolute;
-  height: 790px;
+  height: 840px;
   z-index: 1;
   top: 12vh;
   left: 69.2vw;
@@ -195,7 +195,7 @@ nav {
 .contactPageContainer {
   display: flex;
   margin-top: 36vh;
-  margin-left: 1vw;
+  margin-left: 7vw;
 }
 
 .infoTextContainer {
@@ -211,12 +211,12 @@ nav {
 }
 
 .infoTextContainer .text {
-  font-size: 3.7vw;
+  font-size: 3vw;
 }
 
 .rei {
   position: absolute;
-  height: 790px;
+  height: 840px;
   z-index: 2;
   top: 12vh;
   left: 60vw;
@@ -224,7 +224,7 @@ nav {
 
 .reiShadow {
   position: absolute;
-  height: 790px;
+  height: 840px;
   z-index: 1;
   top: 12vh;
   left: 59.2vw;
