@@ -7,7 +7,7 @@ import eggBitePng from "./images/eggbite.png"
 export function addMenuPage() {
     const content = document.querySelector("#content")
     const menuPageContainer = document.createElement("div")
-    menuPageContainer.classList.add("menuPageContainer")
+    menuPageContainer.classList.add("menuPageContainer", "pageContainer")
     content.appendChild(menuPageContainer)
 
     //add character

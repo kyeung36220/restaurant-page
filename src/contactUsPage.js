@@ -5,7 +5,7 @@ import reiShadowPng from "./images/reishadow.png"
 export function addContactUsPage() {
     const content = document.querySelector("#content")
     const contactPageContainer = document.createElement("div")
-    contactPageContainer.classList.add("contactPageContainer")
+    contactPageContainer.classList.add("contactPageContainer", "pageContainer")
     content.appendChild(contactPageContainer)
 
     // creating flex box for info text

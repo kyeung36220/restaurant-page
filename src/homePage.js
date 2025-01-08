@@ -5,7 +5,7 @@ import shinjiShadowPng from "./images/shinjishadow.png"
 export function addHomePage() {
     const content = document.querySelector("#content")
     const homePageContainer = document.createElement("div")
-    homePageContainer.classList.add("homePageContainer")
+    homePageContainer.classList.add("homePageContainer", "pageContainer")
     content.appendChild(homePageContainer)
 
     // add nerv logo
