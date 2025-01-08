@@ -1,5 +1,8 @@
 import "./styles.css";
-// import { greeting } from "./greeting.js";
-// import odinImage from "./odin.png";
+import { addHeader } from "./initial.js"
+import { addHomePage } from "./homePage.js"
+import { addMenuPage } from "./menuPage.js"
+import {} from "./contactUsPage.js"
 
-alert(Hello)
+addHeader()
+addMenuPage()
