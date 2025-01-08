@@ -157,7 +157,7 @@ nav {
   left: 4.6vw;
 }
 
-.menuTextContainer {
+.menuContentContainer {
   display: flex;
   margin-left: 29vw;
   flex-direction: column;
@@ -190,3 +190,43 @@ nav {
   margin-top: 2vh;
   transform: scale(0.77, 1);
 }
+
+/* CONTACT PAGE */
+.contactPageContainer {
+  display: flex;
+  margin-top: 36vh;
+  margin-left: 1vw;
+}
+
+.infoTextContainer {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  transform: scale(0.77, 1);
+}
+
+.infoTextContainer .contactTitle {
+  font-family: "tnrBold";
+  font-size: 7.5vw;
+}
+
+.infoTextContainer .text {
+  font-size: 3.7vw;
+}
+
+.rei {
+  position: absolute;
+  height: 790px;
+  z-index: 2;
+  top: 12vh;
+  left: 60vw;
+}
+
+.reiShadow {
+  position: absolute;
+  height: 790px;
+  z-index: 1;
+  top: 12vh;
+  left: 59.2vw;
+}
+

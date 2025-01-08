@@ -6,6 +6,7 @@ export function addHomePage() {
     const content = document.querySelector("#content")
     const homePageContainer = document.createElement("div")
     homePageContainer.classList.add("homePageContainer")
+    content.appendChild(homePageContainer)
 
     // add nerv logo
     const nervLogo = document.createElement("img")
@@ -39,7 +40,5 @@ export function addHomePage() {
     shinjiShadow.classList.add("shinjiShadow")
     shinjiShadow.src = shinjiShadowPng
     homePageContainer.appendChild(shinjiShadow);
-
-    content.appendChild(homePageContainer)
 
 }

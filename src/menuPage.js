@@ -22,20 +22,20 @@ export function addMenuPage() {
     menuPageContainer.appendChild(asukaShadow);
 
     //container for title and items
-    const menuTextContainer = document.createElement("div")
-    menuTextContainer.classList.add("menuTextContainer")
-    menuPageContainer.appendChild(menuTextContainer)
+    const menuContentContainer = document.createElement("div")
+    menuContentContainer.classList.add("menuContentContainer")
+    menuPageContainer.appendChild(menuContentContainer)
 
     //add title
     const menuTitle = document.createElement("div")
     menuTitle.classList.add("menuTitle")
     menuTitle.textContent = "MENU ITEMS"
-    menuTextContainer.appendChild(menuTitle)
+    menuContentContainer.appendChild(menuTitle)
 
     //container for all items flex container
     const menuItemsContainer = document.createElement("div")
     menuItemsContainer.classList.add("menuItemsContainer")
-    menuTextContainer.appendChild(menuItemsContainer)
+    menuContentContainer.appendChild(menuItemsContainer)
 
     const onigiri = document.createElement("div")
     onigiri.classList.add("onigiri", "item")
